@@ -1,0 +1,97 @@
+.leftbar {
+    width: 100%;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.leftbar .user-card {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    border: 1px solid #c5c5c5;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.leftbar .user-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.leftbar .user-card .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftbar .user-card .info .username {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.leftbar .user-card .info .email {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #8d8d8d;
+}
+
+.options-bar {
+    margin-top: 14px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    border: 1px solid #c5c5c5;
+}
+
+.options-bar .option {
+    cursor: pointer;
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.options-bar .option:hover {
+    background-color: white;
+}
+
+.options-bar .option i {
+    margin-right: 8px;
+    color: #696969;
+}
+
+@media (max-width: 1200px) {
+    .leftbar .user-card {
+        width: 220px;
+    }
+
+    .options-bar {
+        width: 220px;
+    }
+}
+
+@media (max-width: 900px) {
+    .leftbar .user-card {
+        display: none;
+    }
+
+    .options-bar {
+        display: none;
+    }
+}

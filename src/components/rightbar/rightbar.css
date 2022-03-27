@@ -1,0 +1,29 @@
+.rightbar {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.amigos {
+    width: 200px;
+    height: 90vh;
+    padding: 14px;
+    background-color: #f6f6f6;
+}
+
+.amigos-title {
+    margin-bottom: 14px;
+    font-size: 20px;
+    color: #8d8d8d;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+@media (max-width: 900px) {
+    .amigos {
+        display: none;
+    }
+}

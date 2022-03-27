@@ -1,0 +1,137 @@
+.post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    margin: 20px 0;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #c5c5c5;
+}
+
+.post .post-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.post .post-info img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.post .post-info .user-date p {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.post .post-info .user-date span {
+    font-size: 15px;
+    color: #8d8d8d;
+}
+
+.post .post-info .delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.post .post-desc {
+    margin-top: 14px;
+}
+
+.post .post-likes {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post .post-likes .comments {
+    margin-right: 8px;
+}
+
+.post .post-likes .likes i {
+    cursor: pointer;
+}
+
+.liked {
+    color: blue;
+}
+
+.dropdown-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.dropdown-container ul {
+    position: absolute;
+    width: 100px;
+    max-height: 0px;
+    margin-right: 200px;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.dropdown-container ul li {
+    margin: 5px 0;
+}
+
+.dropdown-container:hover ul {
+    max-height: 50px;
+}
+
+.editar-post {
+    margin:14px 0;
+}
+
+.form-edit-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editar-post textarea {
+    padding: 8px;
+    border: 1px solid #8d8d8d;
+    border-radius: 5px;
+    outline: none;
+    width: 80%;
+    height: 100px;
+}
+
+.editar-post button {
+    cursor: pointer;
+    margin-left: 8px;
+    height: 30px;
+    width: 50px;
+    border: 1px solid #8d8d8d;
+    border-radius: 5px;
+}
+
+.postImg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.hide-edit {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .dropdown-container ul {
+        left: -60px;
+    }
+}

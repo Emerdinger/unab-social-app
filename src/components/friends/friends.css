@@ -1,0 +1,16 @@
+.friend-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.friend-card img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.friend-card span {
+    text-transform: capitalize;
+}

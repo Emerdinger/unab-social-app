@@ -1,0 +1,10 @@
+.feed {
+    margin-top: 60px;
+}
+
+@media (max-width: 900px) {
+    .feed {
+        margin-top: 108px;
+        padding: 8px;
+    }
+}

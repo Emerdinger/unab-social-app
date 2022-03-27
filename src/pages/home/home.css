@@ -1,0 +1,20 @@
+.homeContainer{
+    display: grid;
+    grid-template-columns: 27% 46% 27%;
+    width: 100%;
+    margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+    .homeContainer{
+        grid-template-columns: 1fr;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+}
