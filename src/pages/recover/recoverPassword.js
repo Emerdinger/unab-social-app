@@ -12,7 +12,7 @@ export default function RecoverPassword() {
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
 
-    const URL = "34.197.106.43:443/api";
+    const URL = "http://34.197.106.43:443/api";
 
     useEffect(() => {
         authService.verificarToken().then(result => setUser(result));

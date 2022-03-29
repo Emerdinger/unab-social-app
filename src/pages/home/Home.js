@@ -17,7 +17,7 @@ export default function Home() {
             "authorization": localStorage.getItem("social-app-token")
         }
         const datosUsuario = async () => {
-            const res = await axios.get("34.197.106.43:443/api/users/userData", {
+            const res = await axios.get("http://34.197.106.43:443/api/users/userData", {
                 headers: headers
             });
             setDataUser(res.data);

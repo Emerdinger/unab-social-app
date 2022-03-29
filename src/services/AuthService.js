@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "34.197.106.43:443/api";
+const URL = "http://34.197.106.43:443/api";
 
 const loggedIn = () => {
     return !!localStorage.getItem("social-app-token");

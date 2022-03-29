@@ -23,7 +23,7 @@ export default function Post({post, currentUser}) {
 
     useEffect(() => {
         const fetchUser = async () => {
-            const res = await axios.get(`http://localhost:5000/api/users?userId=${post.userId}`)
+            const res = await axios.get(`http://34.197.106.43:443/api/users?userId=${post.userId}`)
             setUser(res.data);
         }
         fetchUser();
@@ -49,7 +49,7 @@ export default function Post({post, currentUser}) {
         const headers = {
             "authorization": localStorage.getItem("social-app-token")
         }
-        await axios.delete("http://localhost:5000/api/posts/"+ post._id, {
+        await axios.delete("http://34.197.106.43:443/api/posts/"+ post._id, {
             headers: headers
         });
         window.location.reload();
@@ -60,7 +60,7 @@ export default function Post({post, currentUser}) {
             const headers = {
                 "authorization": localStorage.getItem("social-app-token")
             }
-            axios.put("http://localhost:5000/api/posts/" + post._id + "/like",{}, {
+            axios.put("http://34.197.106.43:443/api/posts/" + post._id + "/like",{}, {
                 headers: headers
             })
             setLike(isLiked ? like -1 : like + 1);
@@ -83,7 +83,7 @@ export default function Post({post, currentUser}) {
             const headers = {
                 "authorization": localStorage.getItem("social-app-token")
             }
-            axios.put("http://localhost:5000/api/posts/" + post._id,{
+            axios.put("http://34.197.106.43:443/api/posts/" + post._id,{
                 desc: desc.current.value
             }, {
                 headers: headers

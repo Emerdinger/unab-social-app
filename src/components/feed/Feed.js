@@ -12,7 +12,7 @@ export default function Feed({username, userId, user}) {
         const fetchPosts = async () => {
             if (username != null){
                 console.log("j")
-                const res = await axios.get("http://localhost:5000/api/posts/perfil/" + username)
+                const res = await axios.get("http://34.197.106.43:443/api/posts/perfil/" + username)
                 setPosts(
                     res.data.sort((p1,p2) => {
                         return new Date(p2.createdAt) - new Date(p1.createdAt);
@@ -20,7 +20,7 @@ export default function Feed({username, userId, user}) {
                 )
             } else {
                 if (userId != null) {
-                    const res = await axios.get("http://localhost:5000/api/posts/timeline/" + userId);
+                    const res = await axios.get("http://34.197.106.43:443/api/posts/timeline/" + userId);
                     setPosts(
                         res.data.sort((p1, p2) => {
                             return new Date(p2.createdAt) - new Date(p1.createdAt);

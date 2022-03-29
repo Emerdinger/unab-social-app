@@ -10,7 +10,7 @@ export default function Login() {
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
 
-    const URL = "34.197.106.43:443/api";
+    const URL = "http://34.197.106.43:443/api";
 
     useEffect(() => {
         authService.verificarToken().then(result => setUser(result));
