@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Emerdinger/unab-social-app/static/css/main.ab64ddb7.css",
-    "main.js": "/Emerdinger/unab-social-app/static/js/main.538d8df9.js",
+    "main.js": "/Emerdinger/unab-social-app/static/js/main.1a0ccfbd.js",
     "index.html": "/Emerdinger/unab-social-app/index.html",
     "main.ab64ddb7.css.map": "/Emerdinger/unab-social-app/static/css/main.ab64ddb7.css.map",
-    "main.538d8df9.js.map": "/Emerdinger/unab-social-app/static/js/main.538d8df9.js.map"
+    "main.1a0ccfbd.js.map": "/Emerdinger/unab-social-app/static/js/main.1a0ccfbd.js.map"
   },
   "entrypoints": [
     "static/css/main.ab64ddb7.css",
-    "static/js/main.538d8df9.js"
+    "static/js/main.1a0ccfbd.js"
   ]
 }
