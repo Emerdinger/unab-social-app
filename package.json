@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/Emerdinger/unab-social-app",
-  "name": "front-social",
+  "homepage": "https://github.com/unab-social-app/",
+  "name": "unab-social-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
