@@ -14,7 +14,7 @@ import RecoverPassword from "./pages/recover/recoverPassword";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/recover" element={<RecoverPassword />} />
         <Route path="/login" element={<Login />} />
