@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/unab-social-app/static/css/main.ab64ddb7.css",
-    "main.js": "/unab-social-app/static/js/main.8768967b.js",
+    "main.js": "/unab-social-app/static/js/main.e81171fe.js",
     "index.html": "/unab-social-app/index.html",
     "main.ab64ddb7.css.map": "/unab-social-app/static/css/main.ab64ddb7.css.map",
-    "main.8768967b.js.map": "/unab-social-app/static/js/main.8768967b.js.map"
+    "main.e81171fe.js.map": "/unab-social-app/static/js/main.e81171fe.js.map"
   },
   "entrypoints": [
     "static/css/main.ab64ddb7.css",
-    "static/js/main.8768967b.js"
+    "static/js/main.e81171fe.js"
   ]
 }
